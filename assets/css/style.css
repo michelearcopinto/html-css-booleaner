@@ -33,7 +33,7 @@ header {
 h1 {
     font-size: 50px;
     line-height: 45px;
-    margin-block: 5px;
+    margin-block: 10px;
     text-align: left;
 }
 
@@ -84,4 +84,27 @@ thead {
 
 .narrow_column {
     width: 250px;
+}
+
+footer>span {
+    font-weight: bold;
+}
+
+#image_footer_01 {
+    margin-block: 15px;
+    background-image: url(../img/monitor.jpg);
+    width: 312px;
+    height: 208px;
+}
+
+#image_footer_02 {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    width: 312px;
+    height: 208px;
+}
+
+h2 {
+    color: white;
+    padding: 10px;
 }
