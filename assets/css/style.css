@@ -53,3 +53,11 @@ a {
 .image_description {
     font-size: 12px;
 }
+
+p {
+    margin-block: 15px;
+}
+
+li {
+    margin-left: 1em;
+}
