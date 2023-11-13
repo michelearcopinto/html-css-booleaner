@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    text-align: justify;
+}
+
 header {
     width: 100%;
     height: 130px;
@@ -30,6 +34,7 @@ h1 {
     font-size: 50px;
     line-height: 45px;
     margin-block: 5px;
+    text-align: left;
 }
 
 .subtitle {
@@ -57,17 +62,26 @@ a {
 p,
 table,
 ul {
-    margin-block: 15px;
+    margin-block: 25px;
 }
 
 li {
     margin-left: 1em;
 }
 
-table,
-td,
-th {
-    border: 1px solid black;
+table {
     border-collapse: collapse;
-    padding: 5px;
+}
+
+thead {
+    color: white;
+    background-color: #20A9E5;
+}
+
+.odd_row {
+    background-color: #B1E4F2;
+}
+
+.narrow_column {
+    width: 250px;
 }
