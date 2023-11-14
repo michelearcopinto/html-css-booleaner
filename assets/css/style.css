@@ -23,7 +23,6 @@ header {
 
 #logo_header_container {
     padding-top: 60px;
-    height: 100%;
 }
 
 #logo_header {
@@ -37,18 +36,21 @@ h1 {
     text-align: left;
 }
 
-.subtitle {
+h6 {
     color: #808080;
+}
+
+h6 span:first-child {
     font-size: 20px;
+}
+
+h6 span:nth-child(2) {
+    font-size: 16px;
 }
 
 a {
     color: #28ABE5;
     text-decoration: none;
-}
-
-#subtitle_second_row {
-    font-size: 16px;
 }
 
 #article_header_image {
@@ -57,6 +59,7 @@ a {
 
 .image_description {
     font-size: 12px;
+    margin: 0;
 }
 
 p,
@@ -82,29 +85,30 @@ thead {
     background-color: #B1E4F2;
 }
 
-.narrow_column {
-    width: 250px;
+.text_column {
+    width: 60%;
 }
 
-footer>span {
-    font-weight: bold;
+.image_footer_box {
+    width: 312px;
+    height: 208px;
+    margin-block: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+
+    font-size: 20px;
+    color: white;
+}
+
+footer h6:first-child {
+    font-size: 20px;
 }
 
 #image_footer_01 {
-    margin-block: 15px;
     background-image: url(../img/monitor.jpg);
-    width: 312px;
-    height: 208px;
 }
 
 #image_footer_02 {
     background-image: url(../img/graph.jpg);
-    background-size: cover;
-    width: 312px;
-    height: 208px;
-}
-
-h2 {
-    color: white;
-    padding: 10px;
 }
